@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", serif;
+    font-family: "Outfit", serif;
 }
 :root {
     --main-bg-color: #D5E1EF;
@@ -20,7 +20,7 @@
 
 }
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 15px;
@@ -40,6 +40,7 @@ main {
     padding: 16px 16px 40px 16px;
     background: var(--inner-white);
     border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .wrp-flex-grnd-child h1 {
     margin: 24px auto;
